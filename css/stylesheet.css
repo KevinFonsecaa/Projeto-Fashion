@@ -1,0 +1,106 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+
+
+nav{
+    background-color: rgb(22, 31, 42);
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+nav ul{
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.3);
+    display: absolute;
+    position: relative;
+    bottom: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+.img-logo{
+    position: relative;
+    left: 32px;
+}
+
+ul li:hover{
+    color: white;
+    transition: 2s;
+}
+
+header{
+    height: 730px;
+    background-image: url(../imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*até aqui estilização do header*/
+
+main{
+    padding-top: 70px;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section > p{
+    line-height: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.conteiner-cards{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.div-card{
+    width: 31%;
+    float: right;
+    margin-left: 2% ;
+}
+
+.div-card img{
+    width: 80%;
+    display: block;
+}
+
+h4{
+    color: rgb(111, 107, 105);
+    padding: 10px;
+    text-indent: 15%;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.div-card p{
+    text-indent: 15%;
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+}
