@@ -20,7 +20,7 @@ body{
 
 nav{
     background-color: rgb(22, 31, 42);
-    height: 50px;
+    height: 55px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -55,13 +55,10 @@ ul li:hover{
     transition: 2s;
 }
 
-header{
-    height: 730px;
-    background-image: url(../imagens/topo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.img-top{
+    width: 100%;
 }
+
 
 /*até aqui estilização do header*/
 
@@ -125,8 +122,9 @@ h4{
     height: 680px;
     background-image: url(../imagens/bg_detalhe.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 80px 0px 0px 80px; 
+    padding: 60px 0px 0px 60px;
+    background-position: right bottom;
+    background-color: rgb(0, 61, 82); 
     
 }
 
